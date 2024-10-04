@@ -22,9 +22,9 @@ sudo systemctl start docker
 sudo systemctl enable docker
 
 sudo docker build -t servidor-web .
-sudo docker run -d --name aplicacao-web -p 8080:8080 servidor-web
+sudo docker run -d --name atividade_sh -p 8080:8080 servidor-web
 
-sudo docker exec -it aplicacao-web bash
+sudo docker exec -it atividade_sh bash
 
 apt-get update && apt-get install nano
 
