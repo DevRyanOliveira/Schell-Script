@@ -29,5 +29,3 @@ sudo docker exec -it atividade_sh bash
 apt-get update && apt-get install nano
 
 echo "iniciando a aplicação"
-
-npm start
