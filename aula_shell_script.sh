@@ -19,7 +19,7 @@ fi #fecha o 1º if
 echo "inicializando o docker..."
 
 sudo systemctl start docker
-sudo systemclt enable docker
+sudo systemctl enable docker
 
 sudo docker build -t servidor-web .
 sudo docker run -d --name aplicacao-web -p 8080:8080 servidor-web

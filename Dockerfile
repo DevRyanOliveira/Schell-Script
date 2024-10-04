@@ -1,4 +1,4 @@
-FROM node: latest
+FROM node:latest
 WORKDIR /AquaTech
 COPY /web-data-viz/ /AquaTech/
 RUN npm install
