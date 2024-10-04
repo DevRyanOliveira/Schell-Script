@@ -2,7 +2,7 @@
 
 sudo apt update && apt upgrade -y
 
-docker -version #verifica versao atual do docker
+docker --version #verifica versao atual do docker
 if [ $? = 0 ]; #se retorno for igual a 0
     then #entao,
     echo “docker instalado” #print no terminal
