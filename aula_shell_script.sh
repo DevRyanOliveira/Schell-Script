@@ -1,6 +1,6 @@
 #!/bin/bash
 
-Sudo apt update && apt upgrade -y
+sudo apt update && apt upgrade -y
 
 docker -version #verifica versao atual do docker
 if [ $? = 0 ]; #se retorno for igual a 0
