@@ -29,3 +29,5 @@ sudo docker exec -it aplicacao-web bash
 apt-get update && apt-get install nano
 
 echo "iniciando a aplicação"
+
+npm start
