@@ -26,8 +26,6 @@ sudo docker run -d --name aplicacao-web -p 8080:8080 servidor-web
 
 sudo docker exec -it aplicacao-web bash
 
-apt-get update && apt-get install nano
+sudo apt-get update && apt-get install nano
 
 echo "iniciando a aplicação"
-
-npm start
